@@ -1,0 +1,98 @@
+{
+  "titel": "QGIS-CH Project Funding Votation 2026",
+  "budget_limit": 65000,
+  "waehrung": "CHF",
+  "admin_password": "admin-2026",
+  "projekte": [
+    {
+      "id": "p21",
+      "name": "Enhancements and Improvements for QGIS DWG support",
+      "kosten": 20509,
+      "beschreibung": "Verbesserungen für die DWG-Unterstützung in QGIS - Améliorations pour la format DWG dans QGIS"
+    },
+    {
+      "id": "p20",
+      "name": "Layout Scalebar Unit Placement",
+      "kosten": 1404,
+      "beschreibung": "Layout Platzierung der Massstabseinheit - Disposition Échelle Unités Placement"
+    },
+    {
+      "id": "p19",
+      "name": "Text on Bézier/NURBS curve annotation item",
+      "kosten": 2406,
+      "beschreibung": "Text auf Bézier-/NURBS-Kurven-Anmerkungsobjekt - Texte sur l'élément d'annotation de courbe Bézier/NURBS"
+    },
+    {
+      "id": "p18",
+      "name": "Zoom to and Spatial Bookmarks for 3D views",
+      "kosten": 10810,
+      "beschreibung": "Zoom und räumliche Lesezeichen für 3D-Ansichten - Zoom et signets spatiaux pour les vues 3D"
+    },
+    {
+      "id": "p17",
+      "name": "3D Gaussian Splatting in QGIS",
+      "kosten": 27025,
+      "beschreibung": "3D-Gauß-Splatting in QGIS - Splatting gaussien 3D dans QGIS"
+    },
+    {
+      "id": "p14",
+      "name": "Support for proxy configurations for QGIS Model Baker and GDAL",
+      "kosten": 5448,
+      "beschreibung": "Unterstützung für Proxykonfigurationen für QGIS Model Baker und GDAL - Prise en charge des configurations proxy pour QGIS Model Baker et GDAL"
+    },
+    {
+      "id": "p13",
+      "name": "Improvements to elevation profile: Ability to define scale in layout",
+      "kosten": 2860,
+      "beschreibung": "Verbesserungen Geländehöhenprofil: Massstab im Layout definieren können - Améliorations du profil altimétrique: possibilité de définir l'échelle dans la mise en page"
+    },
+    {
+      "id": "p12",
+      "name": "Temporal Resolution Support in QGIS Server",
+      "kosten": 4669,
+      "beschreibung": "Unterstützung der zeitlichen Auflösung in QGIS Server - Prise en charge de la résolution temporelle dans QGIS Server"
+    },
+    {
+      "id": "p11",
+      "name": "Graphical Modeler: use a dock for executing a model",
+      "kosten": 10896,
+      "beschreibung": "Grafischer Modellierer: Nutzung eines Docks zur Ausführung eines Modells - Modélisateur graphique : utilisez un dock pour exécuter un modèle"
+    },
+    {
+      "id": "p10",
+      "name": "Graphical Modeler: UX improvements",
+      "kosten": 18679,
+      "beschreibung": "Grafischer Modellierer: Verbesserungen der Benutzererfahrung - Modélisateur graphique : améliorations de l'expérience utilisateur"
+    },
+    {
+      "id": "p9",
+      "name": "Graphical Modeler: Add visual indication of outdated nodes",
+      "kosten": 7783,
+      "beschreibung": "Grafischer Modellierer: Visuelle Anzeige veralteter Knoten hinzufügen - Modélisateur graphique : Ajouter une indication visuelle des nœuds obsolètes"
+    },
+    {
+      "id": "p7",
+      "name": "Enable or disable symbol layer in layer styling dialogue",
+      "kosten": 3113,
+      "beschreibung": "Symbolebene im Dialogfeld „Ebenenstil“ aktivieren oder deaktivieren - Activer ou désactiver le calque des symboles dans la boîte de dialogue de style des calques"
+    },
+    {
+      "id": "p6",
+      "name": "Attribute form: QML Widget Editing Capabilities",
+      "kosten": 4669,
+      "beschreibung": "Attributformular: QML-Widget-Bearbeitungsfunktionen - Formulaire d'attribut : Capacités d'édition des widgets QML"
+    },
+    {
+      "id": "p5",
+      "name": "Processing: detect vector changes algorithm improvements",
+      "kosten": 4669,
+      "beschreibung": "Verarbeitung: Verbesserungen des Algorithmus zur Erkennung von Vektoränderungen - Traitement : améliorations de l'algorithme de détection des changements vectoriels"
+    },
+    {
+      "id": "p4",
+      "name": "Partial pie charts and circular arrangement",
+      "kosten": 10896,
+      "beschreibung": "Teilkreisdiagramme und zirkuläre Anordnung - Diagrammes circulaires partiels et disposition circulaire"
+    }
+  ]
+}

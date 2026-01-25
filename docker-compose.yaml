@@ -1,0 +1,17 @@
+services:
+  grants-2026:
+    build: .
+    container_name: grants-2026
+    ports:
+      - "8501:8501"
+    environment:
+      - STREAMLIT _SERVER_PORT=8501
+      - STREAMLIT_SERVER_ADDRESS=0.0.0.0
+    volumes:
+      - ./data/:/app/data/
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
