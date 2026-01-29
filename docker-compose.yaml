@@ -1,7 +1,7 @@
 services:
-  grants-2026:
+  qgis-ch-grants:
     build: .
-    container_name: grants-2026
+    container_name: qgis-ch-grants-${GRANTS_YEAR}
     ports:
       - "8501:8501"
     environment:

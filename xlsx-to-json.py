@@ -1,8 +1,10 @@
+import os
 import pandas as pd
 import json
+import sys
 
 # Excel laden
-df = pd.read_excel('projekte.xlsx')  # oder .csv
+df = pd.read_excel('data/projekte.xlsx')  # oder .csv
 
 # In JSON-Struktur umwandeln
 projekte = []
@@ -15,12 +17,11 @@ for _, row in df.iterrows():
     })
 
 output = {
-    "titel": "QGIS-CH Project Funding Votation 2026",
-    "budget_limit": 65000,
+    "titel": f"QGIS-CH Sponsoring Projects {os.environ['GRANTS_YEAR']} Voting",
+    "budget_limit": int(os.environ['GRANTS_LIMIT']),
     "waehrung": "CHF",
-    "admin_password": "admin-2026",
+    "admin_password": os.environ['ADMIN_PASSWORD'],
     "projekte": projekte
 }
 
-with open('projekte.json', 'w', encoding='utf-8') as f:
-    json.dump(output, f, indent=2, ensure_ascii=False)
+json.dump(output, sys.stdout, indent=2, ensure_ascii=False)

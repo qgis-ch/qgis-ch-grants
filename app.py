@@ -5,9 +5,9 @@ import pandas as pd
 import os
 
 # --- KONFIGURATION ---
-CONFIG_FILE = 'projekte.json'
+CONFIG_FILE = 'data/projekte.json'
 DB_FILE = 'data/votes.db'
-TOKENS_FILE = 'tokens.txt'
+TOKENS_FILE = 'data/tokens.txt'
 LOGO_FILE = 'logo.png'
 
 def load_config():
