@@ -11,4 +11,8 @@
 * Write the JSON file with projects `docker exec --env-file .env -it qgis-ch-grants-${GRANTS_YEAR} bash -c "python3 /app/xlsx-to-json.py" > data/projekte.json`
 * Write the tokens `docker exec --env-file .env -it qgis-ch-grants-${GRANTS_YEAR} bash -c "python3 /app/tokenizer.py" > data/tokens.txt`
 * Go to `http://localhost:8501/`
+
+## Evaluation
+
+* Output database table `sqlite3 data/votes.db "SELECT * FROM votes;"`
  
